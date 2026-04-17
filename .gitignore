@@ -1,0 +1,74 @@
+# Byte-compiled / cache
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+
+venv/
+.env/
+.venv/
+
+# Environment variables
+
+.env
+.env.*
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Dash / Flask cache (se usar)
+
+*.sqlite3
+
+# Build / dist
+
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+
+*.tmp
+*.bak
+
+# Testing
+
+.coverage
+htmlcov/
+
+# MyPy / Pyright
+
+.mypy_cache/
+.pytest_cache/
+
+# Node (caso use frontend junto)
+
+node_modules/
+
+# Data files (opcional — depende do projeto)
+
+# data/
+
+*.csv
+*.xlsx
