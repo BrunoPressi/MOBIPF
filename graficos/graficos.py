@@ -68,6 +68,7 @@ def create_acidentes_graph(df_filtrado):
 
     # Layout clean
     fig.update_layout(
+        autosize=True,
         showlegend=False,  # remove legenda (já dá pra entender pelo eixo X)
         plot_bgcolor='white',
         paper_bgcolor='white',
@@ -134,6 +135,7 @@ def create_acidentes_por_regiao_graph(df_filtrado):
     total = contagem['TOTAL'].sum()
 
     fig.update_layout(
+        autosize=True,
         annotations=[
             dict(
                 text=f'{total}<br><span style="font-size:12px;">Total</span>',
@@ -198,6 +200,7 @@ def create_acidentes_por_turno_graph(df_filtrado):
 
     # Layout clean
     fig.update_layout(
+        autosize=True,
         showlegend=False,  # remove legenda (já dá pra entender pelo eixo X)
         plot_bgcolor='white',
         paper_bgcolor='white',
@@ -244,6 +247,7 @@ def create_acidentes_por_mes_graph(df_filtrado):
     )
 
     fig.update_layout(
+        autosize=True,
         plot_bgcolor='white',
         paper_bgcolor='white',
         
@@ -295,6 +299,7 @@ def create_acidentes_por_tipo_graph(df_filtrado):
 
     # Layout clean
     fig.update_layout(
+        autosize=True,
         showlegend=False,  # remove legenda (já dá pra entender pelo eixo X)
         plot_bgcolor='white',
         paper_bgcolor='white',
@@ -348,6 +353,7 @@ def create_acidentes_por_veiculo_graph(df_filtrado):
 
     # Layout clean
     fig.update_layout(
+        autosize=True,
         showlegend=False,  # remove legenda (já dá pra entender pelo eixo X)
         plot_bgcolor='white',
         paper_bgcolor='white',
