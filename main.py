@@ -4,7 +4,7 @@ from layouts.dashboard import create_dashboard
 from layouts.footer import create_footer
 from callbacks.callbacks import register_callbacks
 
-from app import app
+from app import app, server
 
 register_callbacks()
 
